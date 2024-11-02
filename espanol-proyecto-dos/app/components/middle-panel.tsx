@@ -47,7 +47,7 @@ export default function MiddlePanel(){
             <br/>
             <p className="text-justify font-serif">La canción “She Knows” de J Cole es sobre la tentación de fama e infidelidad.
                 Pero, también tiene un verso que dice “Rest in peace to Aaliyah / Rest in peace to Left Eye / Michael
-                Jackson, I'll see ya / Just as soon as I die” que ahora se ha relacionado con sus asesinatos, y que
+                Jackson, Ill see ya / Just as soon as I die” que ahora se ha relacionado con sus asesinatos, y que
                 titular “She Knows” significa que Beyoncé sabe que Jay Z y Combs están matando para ella.
                 <br/><br/>
                 Además, la titular suena el mismo del nombre de Beyoncé, “Knows” y “Knowles”. ¡Dice “Just as soon as I
