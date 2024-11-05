@@ -1,7 +1,7 @@
 export default function MiddlePanel(){
 
     return(
-        <div className=" w-1/2 h-5/6">
+        <div className=" w-1/2 h-5/6 ">
 
             <p className="font-serif font-bold">Noticias </p>
             <div className="h-0.5 w-full bg-pink-800"></div>
@@ -18,9 +18,10 @@ export default function MiddlePanel(){
 
             <br/>
             <p className="text-justify font-serif">¡Qué estremecedor! ¡Beyoncé Giselle Knowles está siendo investigada
-                por asesinato! Evidencias recientes muestran que ella ha matado a otras personas famosas, como Aaliyah,
-                Left Eye y Michael Jackson, y que su esposo Jay Z y su amigo Sean Combs le han ayudado con los
-                asesinatos.
+                por asesinato! Evidencias recientes muestran que <b> ella ha matado a otras personas famosas, como
+                    Aaliyah,
+                    Left Eye y Michael Jackson, y que su esposo Jay Z y su amigo Sean Combs le han ayudado con los
+                    asesinatos. </b>
                 <br/><br/>
                 El 14 de septiembre, un jurado votó que Sean Combs es culpable de conspiración y tráfico sexual. Ahora,
                 todos saben que Sean Combs es una persona terrible quién no tiene preocupación por otras personas.
@@ -28,6 +29,12 @@ export default function MiddlePanel(){
                 matando a la gente famosa para salvar la fama de Beyoncé.
             </p>
             <br/><br/>
+
+            <div className="flex flex-row justify-center">
+                <img src={"/fruit-ad.jpg"} alt="Las Victimas" className="mt-3 h-auto w-1/4 "></img>
+                <img src={"/PNC-ad.jpg"} alt="Las Victimas" className="mt-3 h-auto w-1/4 "></img>
+
+            </div>
 
 
             <h1 className="m-2 text-2xl font-serif">Las víctimas</h1>
@@ -39,8 +46,8 @@ export default function MiddlePanel(){
 
                 <br/><br/>
                 Todas estas personas fueron muy famosas cuando murieron y tenían muchas promesas para el futuro. Por
-                eso, Jay Z y Combs pensaron que amenazaron la fama de Beyoncé y los mataron. Además, ¿por qué todos
-                murieron el día 25?
+                eso, Jay Z y Combs pensaron que <b> amenazaron la fama de Beyoncé y los mataron. Además, ¿por qué todos
+                    murieron el día 25? </b>
             </p>
 
             <br/>
@@ -64,7 +71,7 @@ export default function MiddlePanel(){
                 y que el título “She Knows” significa que Beyoncé sabe que Jay Z y Combs están matando por ella.
                 <br/><br/>
                 Además, el título suena el mismo del nombre de Beyoncé, “Knows” y “Knowles”. ¡Dice “Just as soon as I
-                die” porque él sabe que Jay Z y Combs van a matarlo ahora que ha contado su secreto!
+                die” porque <b> él sabe que Jay Z y Combs van a matarlo ahora que ha contado su secreto! </b>
 
             </p>
             <br/><br/>
@@ -73,15 +80,17 @@ export default function MiddlePanel(){
             <br/>
             <p className="text-justify font-serif">Las celebridades han tenido terror a Beyoncé y en la década pasada
                 han agradecido a Beyoncé por sus premios. Hasta Harry Styles, Adele, Lady Gaga y Britney Spears le han
-                agradecido, aunque no tienen relación con ella. Adele aun rompió su premio cuando ganó a “el álbum del
+                agradecido, aunque no tienen relación con ella. <b> Adele aun rompió su premio </b> cuando ganó a “el
+                álbum del
                 año” para compartirlo con Beyoncé. Todos le dieron las gracias porque pensaron que esto les salvaron de
                 Jay Z y Combs si atribuyeron su fama a Beyoncé.
 
                 <br/><br/>
                 Además, recuerda cuando Kanye interrumpió a Taylor Swift en los VMA cuando ganó el premio a “mejor video
                 de las artistas femeninas.” Dicho que Beyoncé tuvo uno de los mejores videos y que ella mereció el
-                premio. Durante años, la gente ha dicho que Kanye es un villano por esto, pero ahora podemos ver que es
-                un héroe y protegió a Taylor Swift de Jay Z y Combs.
+                premio. Durante años, la gente ha dicho que Kanye es un villano por esto, pero ahora podemos ver
+                que <b> es
+                    un héroe y protegió a Taylor Swift de Jay Z y Combs. </b>
 
                 <br/><br/>
             </p>
@@ -99,15 +108,19 @@ export default function MiddlePanel(){
 
             <br/><br/>
             <p className="text-justify font-serif">Es muy escalofriante que Beyoncé, Jay Z y Combs sean asesinos y esta
-                es una noticia muy seria. Solo podemos esperar que se haga justicia para ellos en este caso.
+                es una noticia muy seria. <b>Solo podemos esperar </b>que se haga justicia para ellos en este caso.
                 Continuaremos actualizando esta historia durante la investigación.
 
             </p>
             <br/><br/>
-            <p className="text-lg mb-40 font-serif font-bold">Por ahora, gracias Beyoncé.</p>
+            <p className="text-lg mb-5 font-serif font-bold">Por ahora, gracias Beyoncé.</p>
 
+            <div className="flex flex-row justify-center">
+                <img src={"/soccer-ad.jpg"} alt="Las Victimas" className="mt-3 h-auto w-full "></img>
 
+            </div>
 
+            <p className="text-lg mb-40 font-serif font-bold"></p>
 
 
         </div>

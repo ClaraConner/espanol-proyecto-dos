@@ -9,7 +9,7 @@ export default function RightPanel(){
                 <img src={"/car-spanish-ad.jpg"} alt="Beyonce" className="mt-96 h-auto rounded-md"></img>
             </div>
             <div className="flex flex-col w-3/4 justify-center">
-                <img src={"/prueba-ad.jpg"} alt="Beyonce" className="mt-96 h-auto rounded-md justify-center"></img>
+                <img src={"/prueba-ad.jpg"} alt="Beyonce" className="mt-96 h-auto justify-center"></img>
             </div>
         </div>
 

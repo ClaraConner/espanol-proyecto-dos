@@ -8,12 +8,12 @@ export default function Home() {
   return (
       <div>
           <Header/>
-          <div className="flex flex-row mt-8 justify-around">
+          <div className="flex flex-row mt-2 mb-30 justify-around">
               <LeftPanel/>
               <MiddlePanel/>
               <RightPanel/>
           </div>
-          <div className="flex flex-row my-4 justify-center">
+          <div className="flex flex-row  justify-center">
               <Footer/>
           </div>
       </div>

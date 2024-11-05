@@ -1,7 +1,8 @@
 export default function LeftPanel(){
 
-    return(
-        <div className="bg-slate-100 p-6 w-1/5 h-5/6 flex flex-col">
+    return (
+        <div className="w-1/5 h-5/6 flex flex-col">
+        <div className="bg-slate-100 p-6">
             <p className="font-serif font-bold">Ver más</p>
             <div className="h-0.5 w-full bg-pink-800"></div>
 
@@ -43,10 +44,6 @@ export default function LeftPanel(){
             </div>
 
 
-
-
-
-
             <p className="font-serif font-bold mt-60">Cultura</p>
             <div className="h-0.5 w-full bg-pink-800"></div>
 
@@ -55,7 +52,8 @@ export default function LeftPanel(){
                     <img src={"/camera-man.jpg"} alt="ver mas" className="mt-3 h-auto rounded-md"></img>
                 </div>
                 <div className=" flex flex-col w-3/5 ">
-                    <p className="text-xs font-serif ml-0.5 font-bold mt-3 hover:text-pink-900">Fotógrafo de celebridades latinas José ‘Chepe’ DeVillegas comparte una mirada al interior de su viaje</p>
+                    <p className="text-xs font-serif ml-0.5 font-bold mt-3 hover:text-pink-900">Fotógrafo de
+                        celebridades latinas José ‘Chepe’ DeVillegas comparte una mirada al interior de su viaje</p>
                 </div>
             </div>
             <div className="flex flex-row my-1 w-full items-center">
@@ -63,7 +61,8 @@ export default function LeftPanel(){
                     <img src={"/couple.jpg"} alt="Beyonce" className="mt-3 h-auto rounded-md"></img>
                 </div>
                 <div className=" flex flex-col w-3/5 ">
-                    <p className="text-xs font-serif ml-0.5 font-bold mt-3 hover:text-pink-900">Christian Nodal y Cazzu: Cronología de su relación</p>
+                    <p className="text-xs font-serif ml-0.5 font-bold mt-3 hover:text-pink-900">Christian Nodal y Cazzu:
+                        Cronología de su relación</p>
                 </div>
             </div>
             <div className="flex flex-row my-1 w-full items-center">
@@ -71,7 +70,8 @@ export default function LeftPanel(){
                     <img src={"/taylor-swift.jpg"} alt="Beyonce" className="mt-3 h-auto rounded-md"></img>
                 </div>
                 <div className=" flex flex-col w-3/5 ">
-                    <p className="text-xs font-serif ml-0.5 font-bold mt-3 hover:text-pink-900 ">7 disfraces fáciles de estrellas de la música latina que puedes hacer tú mismo para Halloween 2024</p>
+                    <p className="text-xs font-serif ml-0.5 font-bold mt-3 hover:text-pink-900 ">7 disfraces fáciles de
+                        estrellas de la música latina que puedes hacer tú mismo para Halloween 2024</p>
                 </div>
             </div>
             <div className="flex flex-row my-1 w-full items-center">
@@ -79,12 +79,18 @@ export default function LeftPanel(){
                     <img src={"/messi-bad-bunny.jpg"} alt="Beyonce" className="mt-3 h-auto rounded-md"></img>
                 </div>
                 <div className=" flex flex-col w-3/5 ">
-                    <p className="text-xs font-serif ml-0.5 font-bold mt-3 hover:text-pink-900 ">Bad Bunny y Lionel Messi revelan innovadora colaboración con Adidas: ‘Esperamos crear un legado’</p>
+                    <p className="text-xs font-serif ml-0.5 font-bold mt-3 hover:text-pink-900 ">Bad Bunny y Lionel
+                        Messi revelan innovadora colaboración con Adidas: ‘Esperamos crear un legado’</p>
                 </div>
             </div>
 
 
         </div>
+    <div className="flex flex-row mt-96 justify-center">
+        <img src={"/trump-ad.JPG"} alt="Beyonce" className="mt-3 h-auto w-3/4 "></img>
+    </div>
 
-    )
+    </div>
+
+)
 }
