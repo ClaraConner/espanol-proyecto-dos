@@ -87,7 +87,7 @@ export default function LeftPanel(){
 
         </div>
     <div className="flex flex-row mt-96 justify-center">
-        <img src={"/trump-ad.JPG"} alt="Beyonce" className="mt-3 h-auto w-3/4 "></img>
+        <img src={"/trump-ad.jpg"} alt="Beyonce" className="mt-3 h-auto w-3/4 "></img>
     </div>
 
     </div>
